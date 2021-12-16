@@ -77,7 +77,7 @@ plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted")
 plt.show()
 
-
+#prediction with new data
 prediction=lin_Rig_Model.predict((np.array([[2015,10.38,26000,0,0,0,0]])))
 print("Prediction:",prediction)
 
